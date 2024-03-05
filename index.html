@@ -1,91 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com " />
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=**Quicksand:wght@500**&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&display=swap"
       rel="stylesheet"
     />
     <link
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-  <header class="index-header" style="display: flex; justify-content: space-around;">
-    <div class="container">
-      <div class="logo">
+    <div class="page-wrapper">
+      <!-- Header: Navigation bar -->
+      <header class="page-header visually-hidden">
+        <div class="container">
+          <nav>
+            <div class="logo">
               <a href="/index.html"><span class="logo-text">Web</span>Studio</a>
             </div>
-            <div class="navigation"style="display:flex; justify-content:space-around;" >
-              <ul>
-            <li><a href="/index.html" class="navigation-1">Studio</a></li>
-              <li><a href="/portfolio.html" class="navigation-2">Portfolio</a></li>
-              <li><a href="/index.html" class="navigation-3">Contacts</a></li>
-            </div>
+            <ul class="navigation">
+              <li><a href="/index.html" class="nav">Studio</a></li>
+              <li><a href="/portfolio.html" class="nav">Portfolio</a></li>
+              <li><a href="" class="nav">Contacts</a></li>
             </ul>
           </nav>
-          <div class="contacts">
-          <ul>
+          <ul class="contacts">
             <li>
-              <a href="emailto:info@devstudio.com" class="contacts-1">info@devstudio.com</a>
+              <a href="emailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+110001111111" class="contacts-2"> +11 (000) 111-11-11</a>
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </div>
       </header>
-    <main>
-    <!--first section-->
-     <section>
-     <div class="display-block">
+      <main>
+        <!-- Hero section -->
+        <section>
           <div class="hero">
             <h1 class="title">Effective Solutions for Your Business</h1>
-            <ul class="buttons">
-              <li>
-           <button type="button" class="order-button">
-              Order Service</button></li>
-              </ul>
+            <button type="button" class="order-button button-text">
+              Order Service
             </button>
           </div>
         </section>
-  <section class="section" style="display: flex;gap:8px">
-          <div class="container- features">
-            <ul class="section-class">
-            <ul class="service">
+        <!-- Features section -->
+        <section class="section">
+          <div class="container features">
+            <ul class="card-set">
               <li>
-                <h4 class="title-h4">Strategy</h4>
+                <h3 class="title-h3">Strategy</h3>
                 <p class="text">
                   Our goal is to identify the business problem to walk away with
                   the perfect and creative solution.
                 </p>
               </li>
               <li>
-                <h4 class="title-h4">Punctuality</h4>
+                <h3 class="title-h3">Punctuality</h3>
                 <p class="text">
                   Bring the key message to the brand's audience for the best
                   price within the shortest possible time.
                 </p>
               </li>
               <li>
-                <h4 class="title-h4">Diligence</h4>
+                <h3 class="title-h3">Diligence</h3>
                 <p class="text">
                   Research and confirm brands that present the strongest digital
                   growth opportunities and minimize risk.
                 </p>
               </li>
               <li>
-            <li>
-              <h4 class="title-h4">Technologies</h4>
+                <h3 class="title-h3">Technologies</h3>
                 <p class="text">
                   Design practice focused on digital experiences. We bring forth
                   a deep passion for problem-solving.
@@ -94,47 +91,48 @@
             </ul>
           </div>
         </section>
-      <section class="center-section">
-        <img
-          src="./images/Section23.jpg"
-          alt="ecran de computer telefon in mana leptop pe masa"
-          width="1125"
-          height="411"
-        />
-      </section>
-      <section>
-        <div class="team" style="margin-block: 162px;padding: 40px;"></div>
-        <h1 class="our team">Our Team</h1>
+        <section class="center-section">
+          <img
+            src="./images/Section23.jpg"
+            alt="ecran de computer telefon in mana leptop pe masa"
+            width="1125"
+            height="411"
+          />
+        </section>
+        <section>
+          <div class="our-team">
+            <h2 class="title-h2">Our Team</h2>
+          </div>
 
-        <img
-          src="./images/TeamCard1.jpg"
-          alt="TeamCard1"
-          width="276"
-          height="392"
-        />
+          <img
+            src="./images/TeamCard1.jpg"
+            alt="TeamCard1"
+            width="276"
+            height="392"
+          />
 
-        <img
-          src="./images/TeamCard2.jpg"
-          alt="TeamCard2"
-          width="276"
-          height="392"
-        />
-        <img
-          src="./images/TeamCard3.jpg"
-          alt="TeamCard3"
-          width="276"
-          height="392"
-        />
-        <img
-          src="./images/TeamCard4.jpg"
-          alt="TeamCard4"
-          width="276"
-          height="392"
-        />
-      </section>
-   </main>
-   <!--menu nav-->
-    <footer class="footer">
+          <img
+            src="./images/TeamCard2.jpg"
+            alt="TeamCard2"
+            width="276"
+            height="392"
+          />
+          <img
+            src="./images/TeamCard3.jpg"
+            alt="TeamCard3"
+            width="276"
+            height="392"
+          />
+          <img
+            src="./images/TeamCard4.jpg"
+            alt="TeamCard4"
+            width="276"
+            height="392"
+          />
+        </section>
+      </main>
+      <!--menu nav-->
+      <footer class="footer">
         <div class="footer-container">
           <div class="logo">
             <a href="/index.html"
